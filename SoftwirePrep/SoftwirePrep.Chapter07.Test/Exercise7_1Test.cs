@@ -9,7 +9,7 @@ namespace SoftwirePrep.Tests
     /// <summary>
     /// Tests for Excercise7_1
     /// </summary>
-    [TestClass]
+    [TestClass] 
     public class Exercise7_1Test
     {
         /// <summary>

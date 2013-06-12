@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwirePrep.Excercises", "SoftwirePrep.Chapter\SoftwirePrep.Excercises.csproj", "{E98727C3-E7B5-4486-8BD2-5BB37F9435B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwirePrep.Exercises", "SoftwirePrep.Chapter\SoftwirePrep.Exercises.csproj", "{E98727C3-E7B5-4486-8BD2-5BB37F9435B8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwirePrep.Tests", "SoftwirePrep.Chapter07.Test\SoftwirePrep.Tests.csproj", "{A81B74B0-252B-489F-A80A-BD9AAA59232B}"
 EndProject

@@ -51,13 +51,14 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Exercise7_1Test.cs" />
+    <Compile Include="Exercise8_1Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Exercise7_2Test.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SoftwirePrep.Chapter\SoftwirePrep.Excercises.csproj">
+    <ProjectReference Include="..\SoftwirePrep.Chapter\SoftwirePrep.Exercises.csproj">
       <Project>{e98727c3-e7b5-4486-8bd2-5bb37f9435b8}</Project>
-      <Name>SoftwirePrep.Excercises</Name>
+      <Name>SoftwirePrep.Exercises</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
