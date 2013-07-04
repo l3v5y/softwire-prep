@@ -70,21 +70,13 @@ namespace SoftwirePrep.Tests
 
         [TestMethod]
         [TestCategory("Chapter 7")]
+        [ExpectedException(typeof(DivideByZeroException))]
         public void DivideByZeroTest()
         {
             int x = 12;
             int y = 0;
             Exercise7_1 calculator = new Exercise7_1();
-            try
-            {
-                calculator.Divide(x, y);
-            }
-            catch (ArgumentOutOfRangeException e)
-            {
-                StringAssert.Contains(e.Message, "Cannot divide by 0");
-                return;
-            }
-            Assert.Fail("No exception was thrown");
+            calculator.Divide(x, y);
         }
     }
 }
